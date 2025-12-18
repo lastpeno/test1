@@ -1,7 +1,7 @@
 public class Song {
     private String title;
     private String artistName;
-    private int duration; // в секундах
+    private int duration;
 
     public Song() {
         this.title = "Unknown";

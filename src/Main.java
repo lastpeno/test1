@@ -8,7 +8,7 @@ public class Main {
 
         Playlist playlist1 = new Playlist("My Favorites", 5);
         Playlist playlist2 = new Playlist("Chill", 3);
-
+/*
         System.out.println("=== MUSIC LIBRARY ===");
         artist1.printInfo();
         artist2.printInfo();
@@ -21,7 +21,7 @@ public class Main {
         playlist1.printInfo();
         playlist2.printInfo();
         System.out.println();
-
+*/
         System.out.println("Comparing playlists:");
         if (playlist1.getSongCount() > playlist2.getSongCount()) {
             System.out.println(playlist1.getName() + " has more songs");
